@@ -58,7 +58,11 @@ h1 {
     justify-content: space-around;
 }
 
-.button, #clear {
+.btn-tools {
+    display: inline-block;
+}
+
+.button, #clear, #save {
     padding: 8px 16px;
     margin: 10px 0;
     border: none;

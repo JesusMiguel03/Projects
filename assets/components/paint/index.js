@@ -3,12 +3,21 @@ const dif = canvas.getBoundingClientRect()
 const ctx = canvas.getContext("2d")
 const clearBtn = document.getElementById("clear")
 const number = document.getElementById("lineNumber") 
+const save = document.getElementById("save")
 
 let painting, color, linewidth, difX, difY, ejeX, ejeY, heightRatio = 1.5;
 
 // Clear screen
 clearBtn.addEventListener("click", ()=> {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
+})
+
+save.addEventListener("click", ()=> {
+    const link = document.createElement('a');
+    link.download = 'download.png';
+    link.href = canvas.toDataURL();
+    link.click();
+    link.delete;
 })
 
 // Responsive canvas
