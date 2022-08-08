@@ -1,46 +1,66 @@
-body, div {
+* {
     padding: 0;
     margin: 0;
 }
 
-canvas {
+#canvas {
+    display: block;
+    margin: 0 auto;
     border: 1px solid #000;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
     color: #333;
     font-family: sans-serif;
-    margin-top: 50px;
+    margin: 5px 0;
 }
 
-.editor {
-    margin: 30px;
-    background-color: #fff;
-    width: fit-content;
-    margin: auto;
-    margin-top: 50px;
-}
-
-.editor div {
-    background-color: #000;
+.tools {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #lw {
-    width: 400px;
+    width: 200px;
     height: 20px;
+    margin-left: 20px;
 }
 
 #color {
     width: 50px;
     height: 40px;
+    border: none;
+    background-color: transparent;
 }
 
-.button {
-    position: absolute;
-    right: 50px;
+#lineNumber {
+    width: 10px;
+    margin-left: 15px;
+    border: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button, #clear {
     padding: 8px 16px;
-    margin: -10px 0;
+    margin: 10px 0;
     border: none;
     border-radius: 5px;
     color: #FFF;
