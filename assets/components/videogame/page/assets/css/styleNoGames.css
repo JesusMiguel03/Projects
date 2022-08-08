@@ -1,0 +1,122 @@
+/* Texto */
+.text {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.semi-title {
+    font-family: 'Changa', sans-serif;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+}
+
+h5 {
+    color: #FFF;
+}
+
+/* Body-Bg */
+body {
+    background: url(../images/wallpaper.png) no-repeat center center fixed;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Titulo & menu efecto */
+.title {
+    font-family: 'Righteous', cursive;
+    --b: 0.1em;   /* the thickness of the line */
+    --c: rgb(25, 208, 43); /* the color */
+    text-shadow: 1px 1px 1px #FFF;
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+        linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+        linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+    cursor: pointer;
+}
+
+.title:hover {
+    --_p: 100%;
+    --_s: .3s;
+}
+
+.menu {
+    --b: 0.1em;   /* the thickness of the line */
+    --c: rgb(25, 208, 43); /* the color */
+    text-shadow: 1px 1px 30px #FFF;
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+        linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+        linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+
+.menu:hover {
+    --_p: 100%;
+    --_s: .3s;
+}
+
+.btn-bg {
+    background-color: #81969d;
+}
+
+/* Img */
+.ico {
+    width: 5rem;
+    height: 5rem;
+    background: 
+    linear-gradient(90deg,#1095c1 50%,#000 0) 
+    var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: 1s;
+}
+
+.ico:hover {
+    width: 7rem;
+    height: 7rem;
+    transition: 1s;
+    border: 5px solid rgb(25, 208, 43);
+}
+
+.landing-img {
+    width: 30rem;
+    height: 20rem;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 5px 5px #8c9a9f;
+}
+
+.img-page {
+    width: 12rem;
+    height: 12rem;
+    border: 1px solid #FFF;
+}
+
+#img1 {
+    box-shadow: -5px 5px rgb(208, 214, 219);
+}
+
+#img2 {
+    box-shadow: 5px -5px rgb(208, 214, 219);
+}
+
+.ico-b {
+    border-radius: 50px;
+    border: 3px solid #FFF;
+}
+
+.ico-bi {
+    border-radius: 30px;
+    border: 3px solid #FFF;
+}
+
+/* Link */
+.nav-link, .nav-link:hover {
+    color: #FFF;
+}

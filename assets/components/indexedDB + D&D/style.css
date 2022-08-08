@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+}
+
+body, h2, div, input, button {
+    padding: 0;
+    margin: 0;
+}
+
+.add-names {
+    margin-top: 40px;
+    user-select: none;
+}
+
+.names {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) 1fr;
+    border-top: 1px solid #48e;
+}
+
+.options {
+    display: flex;
+    justify-self: end;
+}
+
+#name {
+    padding: 4px 8px;
+    border: none;
+    border-bottom: 1px solid #6af;
+    outline: none;
+    letter-spacing: 0.1rem;
+}
+
+#add, #reload, .button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    background-color: #6c9;
+    cursor: pointer;
+}
+
+#add:hover, #reload:hover {
+    cursor: pointer;
+    background-color: #4a7;
+}
+
+.options button {
+    background-color: transparent;
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+}
+
+.delete:hover {
+    color: #999;
+}
+
+.imposible {
+    color: #ccc;
+}
+
+.posible {
+    color: #37d;
+}
+
+.posible:hover {
+    color: #6af;
+}
+
+.name h2 {
+    padding: 6px;
+    margin: 2px 0;
+    color: #48e;
+    outline: none;
+}
+
+.name h2::selection {
+    background-color: #ccc;
+}

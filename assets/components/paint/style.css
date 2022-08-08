@@ -1,0 +1,52 @@
+body, div {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.editor {
+    margin: 30px;
+    background-color: #fff;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.editor div {
+    background-color: #000;
+}
+
+#lw {
+    width: 400px;
+    height: 20px;
+}
+
+#color {
+    width: 50px;
+    height: 40px;
+}
+
+.button {
+    position: absolute;
+    right: 50px;
+    padding: 8px 16px;
+    margin: -10px 0;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    background-color: #6c9;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.text-title {
+    font-family: 'Bangers', cursive;
+    font-size: 1.7rem;
+}
+
+body {
+    background: #222 url('../images/forza_horizon/wallpaper.jpg') no-repeat center center fixed;
+    background-blend-mode: overlay;
+    color: #fff;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.btn-bg {
+    background-color: #412c41;
+    filter: brightness(2);
+}
+
+h2, h3, li>a, div.container {
+    background: -webkit-linear-gradient(#412c41, #2e292b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(200%);
+}
+
+a.nav-link:hover {
+    transition: 0.5s;
+    border-top: 5px solid #2e292b;
+}
+
+.ico-car {
+    width: 5rem;
+}

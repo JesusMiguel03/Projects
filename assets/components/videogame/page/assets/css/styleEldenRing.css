@@ -1,0 +1,31 @@
+.text-title {
+    font-family: 'Tinos', serif;
+    font-size: 1.7rem;
+}
+
+body {
+    background: #333 url('../images/elden_ring/wallpaper.jpg') no-repeat center center fixed;
+    background-blend-mode: overlay;
+    color: #fff;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.btn-bg {
+    background-color: #1c1411;
+    filter: brightness(2);
+}
+
+h2, h3, li>a, div.container {
+    background: -webkit-linear-gradient(#1c1411 ,#614c3c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(200%);
+}
+
+a.nav-link:hover {
+    transition: 0.5s;
+    border-top: 5px solid #614c3c;
+}

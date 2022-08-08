@@ -1,0 +1,31 @@
+.text-title {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.7rem;
+}
+
+body {
+    background: #444 url('../images/age_of_empires/wallpaper.jpg') no-repeat center center fixed;
+    background-blend-mode: overlay;
+    color: #fff;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.btn-bg {
+    background-color: #342916;
+    filter: brightness(2);
+}
+
+h2, h3, li>a, div.container {
+    background: -webkit-linear-gradient(#644e2a, #342916);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(200%);
+}
+
+a.nav-link:hover {
+    transition: 0.5s;
+    border-top: 5px solid #644e2a;
+}

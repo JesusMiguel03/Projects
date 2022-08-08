@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'October Crow';
+    src: url(../fonts/October_Crow.ttf);
+}
+
+.text-title {
+    font-family: 'October Crow';
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+body {
+    background: #333 url('../images/phasmophobia/wallpaper.jpg') no-repeat center center fixed;
+    background-blend-mode: overlay;
+    color: #fff;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.btn-bg {
+    background-color: #345266;
+    filter: brightness(2);
+}
+
+h2, h3, li>a, div.container {
+    background: -webkit-linear-gradient(#345266, #0f2133);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(200%);
+}
+
+a.nav-link:hover {
+    transition: 0.5s;
+    border-top: 5px solid #0f2133;
+}

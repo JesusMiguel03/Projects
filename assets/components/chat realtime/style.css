@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #666;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.chat {
+    display: flex;
+    width: 90%;
+    margin: 25px auto 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #eee;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    margin: 0 auto;
+}
+
+.message {
+    width: 90%;
+    height: 30px;
+    padding: 1px 20px;
+    margin: 20px -20px 0 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;;
+    outline: none;
+    border: 1px solid #FFF;
+}
+
+.message:focus {
+    border-bottom: 2px solid #F90;
+}
+
+.send {
+    width: 10%;
+    height: 34px;
+    margin: 20px;
+    padding: 8px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    background-color: #6c9;
+}
+
+.message-other {
+    width: fit-content;
+    margin: 5px 0;
+    padding: 20px;
+    margin: 10px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #FFF;
+    background-color: #303a43;
+    font-weight: bolder;
+}
+
+.message-me {
+    width: fit-content;
+    text-align: right;
+    align-self: end;
+    padding: 20px;
+    margin: 20px 0;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #FFF;
+    background-color: #208d65;
+    font-weight: bolder;
+}
+
+.button {
+    position: absolute;
+    right: 50px;
+    padding: 8px 16px;
+    margin: -10px 0;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    background-color: #6c9;
+    cursor: pointer;
+}

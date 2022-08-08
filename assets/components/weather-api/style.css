@@ -1,0 +1,139 @@
+:root {
+    --pBlue: #75ABBC;
+    --gainsboro: #DFE0E2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #999;
+}
+
+/* text */
+.text-1, #demo-country-picker {
+    font-family: 'Baloo 2', cursive;
+}
+
+.text-3, .mbsc-label-box-stacked {
+    font-family: 'Concert One', cursive;
+}
+
+.text-5 {
+    font-family: 'Righteous', cursive;
+}
+
+.container {
+    width: 700px;
+    height: 130px;
+    margin: 0 auto 10px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    background-color: var(--gainsboro);
+}
+
+/* title */
+.left,
+.right {
+    width: 50%;
+}
+
+.display::after {
+    content: "";
+    width: 30%;
+    margin: 0 auto 7px;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid var(--pBlue);
+}
+
+.hidden::after {
+    display: none;
+}
+
+#lat,
+#lon {
+    margin: 0 4px;
+}
+
+/* table title */
+.table-title {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+.hour>th {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* table */
+.container-table {
+    width: 90%;
+    margin: 0 auto 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.sun,
+.moon {
+    width: 270px;
+    padding-left: 20px;
+}
+
+.day,
+.hour-num {
+    font-size: 1.1rem;
+}
+
+.col {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+th {
+    width: 150px;
+    height: 60px;
+    padding: 5px 10px;
+    border: 1px solid #dedede;
+    text-align: left;
+    font-weight: normal;
+}
+
+tr:hover {
+    background-color: #eee;
+}
+
+span {
+    font-size: .9rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.button {
+    position: absolute;
+    right: 50px;
+    padding: 8px 16px;
+    margin: -10px 0;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    background-color: #6c9;
+    cursor: pointer;
+}

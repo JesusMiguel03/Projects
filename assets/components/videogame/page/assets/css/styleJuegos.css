@@ -1,0 +1,42 @@
+.title-b {
+    border-bottom: 1px solid #fff;
+}
+
+.light-50 {
+    width: 15rem;
+    height: 8rem;
+    transition: 1s;
+    border: 1px solid #FFF;
+    filter: brightness(50%);
+}
+
+.light-50:hover {
+    transition: 1s;
+    border: none;
+    box-shadow: 4px 4px #81969d;
+    filter: brightness(100%);
+}
+
+.game-show {
+    width: 15rem;
+    height: 8rem;
+    transition: 1s;
+    border: 1px solid #FFF;
+}
+.game-show:hover {
+    transition: 1s;
+    border: none;
+    box-shadow: 4px 4px #81969d;
+    filter: brightness(150%);
+}
+
+a:hover {
+    color: #FFF;
+}
+
+.rating {
+    margin-top: -2rem;
+    width: 10rem;
+    height: 7rem;
+    filter: invert();
+}

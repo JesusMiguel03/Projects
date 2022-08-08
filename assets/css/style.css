@@ -1,0 +1,144 @@
+:root {
+    --viridian: #119DA4;
+    --teal: #0C7489;
+    --midnightGreen: #13505B;
+    --richBlack: #040404;
+    --timberwolf: #D7D9CE;
+
+    --baby: #FBFEF9;
+    --raisin: #191923;
+    --starCommand: #0E79B2;
+    --marron: #BF1363;
+    --deepSaffron: #F39237;
+
+    --internationalOrange: #B80C09;
+    --blueSapphire: #0B4F6C;
+    --cyan: #01BAEF;
+    --ghostWhite: #FBFBFF;
+    --richBlackFogra: #040F16;
+
+    --blackOlive: #423E3B;
+    --scarlet: #FF2E00;
+    --yellowOrange: #FEA82F;
+    --cream: #FFFECB;
+    --iris: #5448C8;
+}
+
+body {
+    background-color: var(--timberwolf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    display: flex;
+    height: 40px;
+    padding: 5px 0;
+    border-bottom: 4px solid #534F4C;
+    color:  #FFF;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px #000;
+    background-color: var(--blackOlive);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+}
+
+.title-bar {
+    display: flex;
+    width: fit-content;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid#23272e;
+    background-color: var(--blackOlive);
+}
+
+.red::after, .yellow::after, .green::after {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+    border-radius: 50%;
+    background-color: #ff5f5a;
+    
+}
+
+.red::after {
+    margin-left: 10px;
+}
+
+.yellow::after {
+    background-color: #ffbe2e;
+}
+
+.green::after {
+    background-color: #2aca44;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 5px 5px 5px;
+    border-left: 5px solid #23272e;
+    background-color: var(--blackOlive);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+}
+
+.show {
+    display: block;
+}
+
+.hiden {
+    display: none;
+}
+
+h3 {
+    padding-top: 45%;
+    text-align: center;
+    color: var(--timberwolf);
+    font-weight: bolder;
+    font-family: "Nunito", "Helvetica Neue";
+    text-shadow: 1px 1px 1px #000;
+}
+
+.h3 {
+    display: block;
+}
+
+@keyframes apear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes disapear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

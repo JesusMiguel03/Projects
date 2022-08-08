@@ -1,0 +1,87 @@
+.text-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 1.7rem;
+}
+
+.text-p {
+    text-align: justify;
+    font-family: 'Varela Round', sans-serif;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.ubicacion {
+    color: #bbb;
+    font-size: .8rem;
+}
+
+.ico {
+    width: 3rem;
+}
+
+.ico-attr {
+    filter: brightness(200%);
+    filter: drop-shadow(0 0 10px #fff);
+}
+
+.no-light {
+    filter: brightness(50%);
+}
+
+.video-container {
+    box-shadow: 5px 5px 5px #FFF;
+}
+
+.video {
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+span>a, .active {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    transition: 1s;
+}
+
+span>a:hover {
+    color: rgb(9, 211, 207);
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.active {
+    color: rgb(9, 211, 207);
+}
+
+#prev, #next {
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+#prev {
+    color: #888;
+}
+
+.box {
+    width: 100%;
+    border: 1px solid #fff;
+    transform: translate(-1%, 0%);
+    box-shadow: 5px 5px 5px #FFF;
+}
+
+.img {
+    width: 10rem;
+    height: 10rem;
+    transform: translate(10%, -15%);
+    filter: drop-shadow(0 0 10px #fff);
+}
+
+.footer {
+    position: sticky;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+}
