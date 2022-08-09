@@ -62,7 +62,8 @@ h1 {
     display: inline-block;
 }
 
-.button, #clear, #save {
+.button, #clear, #save, #figures, #circle, #rectangle, #triangle {
+    display: inline-block;
     padding: 8px 16px;
     margin: 10px 0;
     border: none;
