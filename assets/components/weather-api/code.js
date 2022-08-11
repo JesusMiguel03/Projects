@@ -17,7 +17,7 @@ var date = new Date()
 
 function apiResult(event) {
     var utc = new Date().toJSON().slice(0, 10)
-    const API_URL = `http://api.weatherapi.com/v1/history.json?key=8ed7d66b42f442d592e140349222907&q=${this.value}&dt=${utc}`
+    const API_URL = `https://api.weatherapi.com/v1/history.json?key=7b3ab70a1e1545eea0422942221108&q=${this.value}&dt=${utc}`
 
     fetch(API_URL)
     .then((res) => res.json())
